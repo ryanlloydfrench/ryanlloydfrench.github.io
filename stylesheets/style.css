@@ -371,7 +371,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Gotham A", "Gotham B", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 3rem;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #333333;
+  background-color: #f1f1f1; }
 
 h1,
 p {
