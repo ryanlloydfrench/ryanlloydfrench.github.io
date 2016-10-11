@@ -1,1 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://ryanfrench.me/feed.xml" rel="self" type="application/atom+xml" /><link href="http://ryanfrench.me/" rel="alternate" type="text/html" /><updated>2016-09-08T15:27:49+12:00</updated><id>http://ryanfrench.me/</id><title>Ryan French</title><subtitle>Ryan French is a UI Designer &amp; Front-End Developer from New Zealand. He crafts digital experiences that are both functional and beautiful where form always follows function.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://ryanfrench.me/feed.xml" rel="self" type="application/atom+xml" /><link href="http://ryanfrench.me/" rel="alternate" type="text/html" /><updated>2016-10-11T14:42:10+13:00</updated><id>http://ryanfrench.me/</id><title type="html">Ryan French</title><subtitle>Ryan French is an Interactive Designer &amp; Front-End Developer from New Zealand. He crafts digital experiences that are both functional and beautiful, where form always follows function.</subtitle><entry><title type="html">New portfolio website – Ryan French</title><link href="http://ryanfrench.me/journal/new-portfolio-site/" rel="alternate" type="text/html" title="New portfolio website – Ryan French" /><published>2016-10-01T00:00:00+13:00</published><updated>2016-10-01T00:00:00+13:00</updated><id>http://ryanfrench.me/journal/new-portfolio-site</id><content type="html" xml:base="http://ryanfrench.me/journal/new-portfolio-site/">&lt;div class=&quot;row&quot;&gt;
+
+    &lt;div class=&quot;col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2&quot;&gt;
+
+        &lt;article class=&quot;post-wrapper animated-element--contentfadein&quot;&gt;
+
+            &lt;header class=&quot;post-header&quot;&gt;
+                &lt;h2 class=&quot;post-header__sub-title animated-element--titlefadeindown&quot;&gt;October 01, 2016&lt;/h2&gt;
+                &lt;h1 class=&quot;post-header__title animated-element--titlefadeindown&quot;&gt;New portfolio website&lt;/h1&gt;
+                
+                    
+                        &lt;span class=&quot;post-header__category animated-element--contentfadein&quot;&gt;&lt;a href=&quot;/journal/category/design/&quot;&gt;design&lt;/a&gt;&lt;/span&gt;
+                    
+                        &lt;span class=&quot;post-header__category animated-element--contentfadein&quot;&gt;&lt;a href=&quot;/journal/category/development/&quot;&gt;development&lt;/a&gt;&lt;/span&gt;
+                    
+                        &lt;span class=&quot;post-header__category animated-element--contentfadein&quot;&gt;&lt;a href=&quot;/journal/category/news/&quot;&gt;news&lt;/a&gt;&lt;/span&gt;
+                    
+                
+            &lt;/header&gt;
+
+            &lt;div class=&quot;post__content animated-element--contentfadein&quot;&gt;
+
+                &lt;p&gt;Welcome to my new personal portfolio site. For the last month or two I have been working on re-designing and building my new portfolio and online journal. I am happy to say that I can finally push this site to production, it's ready! In this post I will discuss some of the design thinking, development technologies and frameworks that went into building this site.&lt;/p&gt;
+
+                &lt;p&gt;Let's start with design. I started fresh when I started designing my new portfolio site. In terms of personal identity, I have kept my previous logo because I wanted to keep my brand consistent with the past but keep my new portfolio fresh. The old portfolio can be seen in the image below:&lt;/p&gt;
+
+                &lt;img src=&quot;/assets/images/journal/old-portfolio.jpg&quot; data-rjs=&quot;2&quot; /&gt;
+
+                &lt;p&gt;The grid I have chosen is a fluid 12 column grid which allowed me to design at specific breakpoints for mobile devices. The layout on large desktop devices has plenty of white space to aid in making the content easy to digest. When the viewport is below small tablets, the white space tightens up and screen space is used more efficiently so more can be displayed.&lt;/p&gt;
+
+                &lt;img src=&quot;/assets/images/journal/grid.jpg&quot; data-rjs=&quot;2&quot; /&gt;
+
+                &lt;p&gt;The color palette I have chosen is very simple. With 3 variants of grey for background colors, a body color for text and an alternate orange color to compliment the other colors. There are also some small variations of the 3 greys in shades or highlights. There are two typefaces used on my site, Proxima Nova and FF Meta. Proxima Nova comes in two weights, medium and bold. FF Meta comes in two weights, regular and light.&lt;/p&gt;
+
+                &lt;img src=&quot;/assets/images/journal/colors-typography.jpg&quot; data-rjs=&quot;2&quot; /&gt;
+
+                &lt;p&gt;Now let's discuss the technology behind my portfolio. I set out with the goal of optimizing my site for speed and performance while still maintaining great design and usability. I have built this using the &lt;a target=&quot;_blank&quot; href=&quot;https://jekyllrb.com/&quot;&gt;Jekkyl framework&lt;/a&gt; which is a static site generator with built-in blog functionality. This allowed me to get up and running fast with a clean codebase. &lt;/p&gt;
+
+                &lt;p&gt;I'm using &lt;a target=&quot;_blank&quot; href=&quot;http://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; as a css pre-processor. This allows me to write clean and modular css with minimal effort and keep things clean until the css is compiled. Each of the css components are split into partials like _tile.scss then imported into the main stylesheet. Modularizing the css allows me to quickly edit the css for a component without breaking or cascading styles into some other object.&lt;/p&gt;
+
+                &lt;p&gt;The grid system I have chosen to use is the &lt;a target=&quot;_blank&quot; href=&quot;http://flexboxgrid.com/&quot;&gt;Flexbox Grid&lt;/a&gt;. Flexbox Grid is a fluid grid which is needed because I am developing this site to support a wide range of devices. The screen adapts to each viewport size. The grid has breakpoints for large screens, desktop, tablet, small-tablet and mobile. The grid system is also built on the display: flex technology now implemented in most modern browsers. It is much more performant and less bloated css.&lt;/p&gt;
+
+                &lt;p&gt;I use &lt;a target=&quot;_blank&quot; href=&quot;https://mango.github.io/slideout/&quot;&gt;Slideout&lt;/a&gt; on when on mobile devices as a mobile friendly slide out menu. This allows the user to use touch actions to slide out a mobile menu from the right hand side of the viewport, making it easier to navigate on mobile devices.&lt;/p&gt;
+
+                &lt;p&gt;The transitions between pages were done using &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/miguel-perez/smoothState.js&quot;&gt;Smoothstate&lt;/a&gt;. This allowed me to create quick transitions between page loads to let the user know that the content is changing or loading. It also helps mask any loading time between pages. The transitions used are css transitions from &lt;a target=&quot;_blank&quot; href=&quot;https://daneden.github.io/animate.css/&quot;&gt;Slideout&lt;/a&gt; which is a css animation library. &lt;/p&gt;
+
+                &lt;p&gt;Retina images are handled automatically by &lt;a target=&quot;_blank&quot; href=&quot;http://imulus.github.io/retinajs/&quot;&gt;Retina JS&lt;/a&gt;. Retina JS automatically detects when the user is using a high resolution display and serves an image twice the size. Images now look sharp on retina devices and are efficiently handled.&lt;/p&gt;
+
+                &lt;p&gt;I hope this article gives a bit of insight into the design and development of my new portfolio. Hopefully there is some knowledge I can pass on or libraries or plugins you might want to use on your next project. Feel free to take a look at the rest of the site. If you like what you have seen here or want to know more about me or my portfolio, please contact me at &lt;a href=&quot;mailto:ryan.lloyd.french@gmail.com&quot;&gt;ryan.lloyd.french@gmail.com&lt;/a&gt;. I'm currently looking for new job opportunities.&lt;/p&gt;
+
+                &lt;p&gt;Cheers,&lt;br /&gt;Ryan.&lt;/p&gt;
+
+            &lt;/div&gt;
+
+        &lt;/article&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;</content><summary type="html"></summary></entry></feed>
